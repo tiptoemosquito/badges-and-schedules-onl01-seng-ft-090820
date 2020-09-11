@@ -23,5 +23,5 @@ def printer(attendees)
 attendees_list = []
 attendees.loop do |name|
 end
-
+puts "Hello, my name is Edsger."
 end

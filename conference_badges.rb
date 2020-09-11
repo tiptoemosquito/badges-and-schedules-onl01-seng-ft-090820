@@ -1,3 +1,5 @@
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -20,8 +22,12 @@ room_assignments
 end
 
 def printer(attendees)
-attendees_list = []
-attendees.loop do |name|
+batch_badge_creator(attendees).each do |badge|
+  puts badge
 end
-puts "Hello, my name is Edsger."
+
+assign_rooms(attendees).each do |assignment|
+  puts assignment
+end
+
 end

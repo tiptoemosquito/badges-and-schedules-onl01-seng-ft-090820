@@ -23,9 +23,11 @@ def printer(attendees)
   conference_badges = []
   attendees.each do |name|
   end
+
   room_assignments = []
   attendees.each.with_index(1) do |name, index|
   end
+
   puts "Hello, my name is Edsger."
 
 end

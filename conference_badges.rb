@@ -28,6 +28,6 @@ def printer(attendees)
   attendees.each.with_index(1) do |name, index|
   end
 
-  puts ("Hello, my name is #{attendees}.")
+  puts ("Hello, my name is #{Edsger}.")
 
 end
